@@ -1,0 +1,23 @@
+plugins {
+    id 'base'
+    id 'com.moowork.node' version '1.3.1'
+}
+
+subprojects {
+    group 'iam.customization.keycloak-custom.themes'
+    
+    task buildThemeJar(type: Jar) {
+        into("theme/${project.name}") {
+            from('theme-content') {
+                include '**'
+            }
+        }
+        into('META-INF') {
+            from('META-INF') {
+                include '**'
+            }
+        }
+    }
+    
+    assemble.dependsOn buildThemeJar
+}
