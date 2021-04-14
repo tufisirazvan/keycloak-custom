@@ -1,0 +1,40 @@
+.parent-color {
+    background-color: gainsboro;
+}
+.template-form-column {
+    min-height: 440px;
+}
+
+.template-info-column {
+    background-color: ghostwhite;
+}
+
+.header-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.card-pf-view.card-pf-view-select.active {
+    border: darkgrey;
+}
+
+.login-pf-page .card-pf {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+}
+
+header.login-pf-header {
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    width: 21.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
