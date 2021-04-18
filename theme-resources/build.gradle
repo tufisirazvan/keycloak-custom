@@ -1,0 +1,17 @@
+plugins {
+    id 'base'
+}
+
+group 'iam.customization.keycloak-custom'
+version '1.0-SNAPSHOT'
+
+task buildThemeJar(type: Jar) {
+    def kcReservedFolderName = 'theme-resources'
+    into(kcReservedFolderName) {
+        from('.') {
+            include 'templates/**','messages/**'
+        }
+    }
+}
+
+assemble.dependsOn buildThemeJar

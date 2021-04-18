@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/theme-resources" />
             <option value="$PROJECT_DIR$/themes" />
             <option value="$PROJECT_DIR$/themes/child-theme" />
             <option value="$PROJECT_DIR$/themes/parent-theme" />

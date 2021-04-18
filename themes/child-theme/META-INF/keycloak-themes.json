@@ -1,6 +1,6 @@
 {
   "themes": [{
     "name" : "child-theme",
-    "types": [ "login" ]
+    "types": [ "login", "email"]
   }]
 }

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="iam.customization.keycloak-custom.keycloak-custom.main" target="1.8" />
+      <module name="iam.customization.keycloak-custom.keycloak-custom.test" target="1.8" />
       <module name="keycloak-custom.main" target="1.8" />
       <module name="keycloak-custom.parent-theme.main" target="1.8" />
       <module name="keycloak-custom.parent-theme.test" target="1.8" />
       <module name="keycloak-custom.test" target="1.8" />
+      <module name="keycloak-custom.theme-resources.main" target="1.8" />
+      <module name="keycloak-custom.theme-resources.test" target="1.8" />
       <module name="keycloak-custom.themes.child-theme.main" target="1.8" />
       <module name="keycloak-custom.themes.child-theme.test" target="1.8" />
       <module name="keycloak-custom.themes.main" target="12" />

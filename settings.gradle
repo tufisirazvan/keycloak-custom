@@ -1,2 +1,3 @@
 rootProject.name = 'keycloak-custom'
-include 'themes:parent-theme','themes:child-theme'
+include 'theme-resources', 'themes:parent-theme','themes:child-theme'
+
