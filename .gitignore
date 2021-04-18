@@ -37,4 +37,5 @@ out/
 .vscode/
 
 /themes/parent-theme/build/*
+/themes/child-theme/build/*
 /themes/build/*

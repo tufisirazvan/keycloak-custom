@@ -1,0 +1,6 @@
+{
+  "themes": [{
+    "name" : "child-theme",
+    "types": [ "login" ]
+  }]
+}
